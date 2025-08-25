@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+logs/
+tmp/
+
+# Envs
+.venv/
+venv/
+env/
+
+# HF cache locks
+**/.locks/
+
+# big files/folders
+models/
+**/results/
+DMS/
