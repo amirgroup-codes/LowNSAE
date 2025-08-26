@@ -149,6 +149,8 @@ def main():
             # --- 6. Run Simulated Annealing for All Combos ---
             print("\n--- Running Simulated Annealing Methods ---")
             for combo in model_combos:
+                if combo["script"] != "sa_esm.py":
+                    continue
                 output_file = os.path.join(results_dir, f"{combo['name']}_sa_{max_mut}.csv")
                 log_file = output_file.replace('.csv', '.log')
 
