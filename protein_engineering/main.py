@@ -113,7 +113,7 @@ def main():
             probe_base_path = os.path.join("..", "linear_probe", "results", dms_id, "learning_curve", "probe_weights", f"seed0_rerun0_train{LOW_N}")
             
             model_combos = [
-                {"name": "sae", "script": "steer_latents.py", "sae_path": sae_path, "probe_model_path": os.path.join(probe_base_path, "model.pkl")},
+                {"name": "sae", "script": "steer_latents.py", "sae_path": sae_path, "probe_model_path": os.path.join(probe_base_path, "model_sae.pkl")},
                 {"name": "esm_ft", "script": "sa_esm.py", "probe_model_path": os.path.join(probe_base_path, "model_ft.pkl")},
                 {"name": "esm_ft_logits", "script": "sa_esm.py", "probe_model_path": os.path.join(probe_base_path, "model_ft_logits.pkl")}
             ]
@@ -149,6 +149,8 @@ def main():
             # --- 6. Run Simulated Annealing for All Combos ---
             print("\n--- Running Simulated Annealing Methods ---")
             for combo in model_combos:
+                if combo["script"] != "sa_esm.py":
+                    continue
                 output_file = os.path.join(results_dir, f"{combo['name']}_sa_{max_mut}.csv")
                 log_file = output_file.replace('.csv', '.log')
 

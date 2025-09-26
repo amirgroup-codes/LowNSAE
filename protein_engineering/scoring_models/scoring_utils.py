@@ -175,7 +175,7 @@ def get_embeddings(sequences, esm_model, tokenizer, sae_model=None, batch_size=6
         embeddings_N.extend([emb.cpu().numpy() for emb in batch_embeddings_B])
     return np.array(embeddings_N)
 
-def get_logits_embeddings(seqs, esm_model, tokenizer, device, batch_size=64, embedding_dim=None):
+def get_logits_embeddings(seqs, esm_model, tokenizer, batch_size=64, embedding_dim=None):
     """
     Extract mean logit embeddings from sequences using an ESM model.
 
@@ -190,6 +190,7 @@ def get_logits_embeddings(seqs, esm_model, tokenizer, device, batch_size=64, emb
     Returns:
         np.ndarray: Embedding matrix of shape (n_sequences, embedding_dim).
     """
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if embedding_dim is None:
         embedding_dim = esm_model.config.vocab_size
     out_NV = [] # list length N, each entry is V dimensional
