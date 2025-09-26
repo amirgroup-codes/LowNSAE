@@ -1,10 +1,10 @@
-# Sparse Autoencoders Improve Low-$N$ Protein Function Prediction and Design
+# Sparse Autoencoders for Low-$N$ Protein Function Prediction and Design
 
 <p align="center">
 <img src="SAE.svg" alt="SAE Logo" width="400px"/>
 <p align="center">
 
-This is the official code repository for the paper "Sparse Autoencoders Improve Low-$N$ Protein Function Prediction and Design", by Darin Tsui, Kunal Talreja, and Amirali Aghazadeh. A link to the paper can be found [here](https://arxiv.org/abs/2508.18567).
+This is the official code repository for the paper "Sparse Autoencoders for Low-$N$ Protein Function Prediction and Design", by Darin Tsui, Kunal Talreja, and Amirali Aghazadeh. A link to the paper can be found [here](https://arxiv.org/abs/2508.18567).
 
 
 ### Key Components:
@@ -64,4 +64,17 @@ The project evaluates performance across multiple Deep Mutational Scanning (DMS)
 Each of these DMS files can be downloaded [here](https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip). 
 
 To run the experiments from the paper, simply create the `models` folder and train the ESM and SAE models. To run these experiments on your own protein, create the `DMS` folder and add a CSV of its DMS data, as well as the trained SAE/ESM model to `models`. The models used for this paper can be cloned from [HuggingFace](https://huggingface.co/ktalreja/LowNSAE), as well as a tutorial on how to use the models or setup your own.
+
+## Citation
+
+If you use our repository and enjoy it, please consider citing our paper, which was accepted into the NeurIPS AI4Science workshop!
+
+```bibtex
+@inproceedings{tsui2025lownsae,
+  title={Sparse Autoencoders for Low-$N$ Protein Function Prediction and Design},
+  author={Tsui, Darin and Talreja, Kunal and Aghazadeh, Amirali},
+  booktitle={NeurIPS AI for Science Workshop},
+  year={2025}
+}
+```
 
