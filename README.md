@@ -1,5 +1,7 @@
 # Sparse Autoencoders Improve Low - $N$ Protein Function Prediction and Design
 
+<img src="SAE.svg" alt="SHAP zero logo" align="right" height="200px"/>
+
 This is the official code repository for the paper "Sparse Autoencoders Improve Low - $N$ Protein Function Prediction and Design", by Darin Tsui, Kunal Talreja, and Amirali Aghazadeh.
 
 

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 145.22">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f1f1f2;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-width: .25px;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-8 {
+        fill: red;
+      }
+
+      .cls-9 {
+        font-family: Helvetica, Helvetica;
+        font-size: 20px;
+      }
+
+      .cls-10 {
+        fill: #bbbdbf;
+      }
+
+      .cls-11 {
+        fill: #a6a8ab;
+      }
+
+      .cls-12 {
+        fill: #ff4a4a;
+      }
+
+      .cls-13 {
+        fill: #929497;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-14 {
+        fill: #ffc4c4;
+      }
+
+      .cls-15 {
+        fill: #e6e7e8;
+      }
+
+      .cls-5 {
+        fill: #d0d2d3;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-7" x="118.82" y="1.61" width="8.79" height="8.79"/>
+    <rect class="cls-8" x="118.82" y="10.4" width="8.79" height="7.53"/>
+    <rect class="cls-7" x="118.82" y="17.94" width="8.79" height="8.79"/>
+    <rect class="cls-7" x="118.82" y="26.73" width="8.79" height="8.79"/>
+    <rect class="cls-7" x="118.82" y="35.52" width="8.79" height="8.79"/>
+    <rect class="cls-14" x="118.82" y="44.31" width="8.79" height="8.79"/>
+    <rect class="cls-7" x="118.82" y="53.1" width="8.79" height="8.79"/>
+    <rect class="cls-12" x="118.82" y="61.89" width="8.79" height="8.79"/>
+    <rect class="cls-7" x="118.82" y="70.68" width="8.79" height="8.79"/>
+    <rect class="cls-7" x="118.82" y="79.47" width="8.79" height="8.79"/>
+  </g>
+  <polygon class="cls-1" points="110.03 6.01 110.03 83.86 99.04 74.64 99.04 15.22 110.03 6.01"/>
+  <polygon class="cls-1" points="136.4 6.01 136.4 83.86 147.39 74.64 147.39 15.22 136.4 6.01"/>
+  <g>
+    <g>
+      <rect class="cls-11" x="71.91" y="62.53" width="8.79" height="8.79"/>
+      <rect class="cls-15" x="71.91" y="53.74" width="8.79" height="8.79"/>
+      <rect class="cls-13" x="71.91" y="44.95" width="8.79" height="8.79"/>
+      <rect class="cls-2" x="71.91" y="27.37" width="8.79" height="8.79"/>
+      <rect class="cls-10" x="71.91" y="18.58" width="8.79" height="8.79"/>
+    </g>
+    <polygon class="cls-4" points="71.91 27.37 71.91 18.58 80.7 18.58 80.7 27.37 80.7 36.16 80.7 44.95 80.7 53.74 80.7 62.53 80.7 71.32 71.91 71.32 71.91 62.53 71.91 53.74 71.91 44.95 71.91 36.16 71.91 27.37"/>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-11" x="163.97" y="62.52" width="8.79" height="8.79"/>
+      <rect class="cls-15" x="163.97" y="53.73" width="8.79" height="8.79"/>
+      <rect class="cls-13" x="163.97" y="44.94" width="8.79" height="8.79"/>
+      <rect class="cls-2" x="163.97" y="27.36" width="8.79" height="8.79"/>
+      <rect class="cls-10" x="163.97" y="18.57" width="8.79" height="8.79"/>
+    </g>
+    <polygon class="cls-4" points="163.97 27.36 163.97 18.57 172.76 18.57 172.76 27.36 172.76 36.15 172.76 44.94 172.76 53.73 172.76 62.52 172.76 71.31 163.97 71.31 163.97 62.52 163.97 53.73 163.97 44.94 163.97 36.15 163.97 27.36"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="85.48" y1="44.94" x2="92.76" y2="44.94"/>
+    <path class="cls-6" d="M94.27,44.94c-.71.26-1.59.71-2.14,1.19l.43-1.19-.43-1.19c.55.48,1.43.93,2.14,1.19Z"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="151.28" y1="44.94" x2="158.56" y2="44.94"/>
+    <path class="cls-6" d="M160.07,44.94c-.71.26-1.59.71-2.14,1.19l.43-1.19-.43-1.19c.55.48,1.43.93,2.14,1.19Z"/>
+  </g>
+  <rect class="cls-4" x="118.82" y="1.61" width="8.79" height="86.65"/>
+  <rect class="cls-5" x="82.31" y="101.34" width="81.8" height="43.52" rx="1.52" ry="1.52"/>
+  <text class="cls-9" transform="translate(95.99 129.44)"><tspan x="0" y="0">ESM2</tspan></text>
+  <g>
+    <path class="cls-3" d="M121.02,100.62v-4.32c0-2.06-1.71-3.72-3.81-3.72h-56.04c-1.2,0-2.18-.95-2.18-2.13v-43.39c0-1.17.97-2.12,2.17-2.12h4.48"/>
+    <path class="cls-6" d="M67.15,44.94c-.71.26-1.59.71-2.14,1.19l.43-1.19-.43-1.19c.55.48,1.43.93,2.14,1.19Z"/>
+  </g>
+  <g>
+    <path class="cls-3" d="M125.41,99.11v-2.81c0-2.06,1.71-3.72,3.81-3.72h56.04c1.2,0,2.18-.95,2.18-2.13v-43.39c0-1.17-.97-2.12-2.17-2.12h-5.99"/>
+    <path class="cls-6" d="M125.41,100.62c.26-.71.71-1.59,1.19-2.14l-1.19.43-1.19-.43c.48.55.93,1.43,1.19,2.14Z"/>
+  </g>
+</svg>
